@@ -1,0 +1,669 @@
+{
+  "roundedCorners": 20,
+  "dateFormat": "MM/DD/YYYY",
+  "hideLabels": false,
+  "colWidth": 135,
+  "cloudRefresh": 5,
+  "hsmPin": "",
+  "hide3dot": false,
+  "clockMode": true,
+  "gridGap": 15,
+  "goBack": true,
+  "modePin": "",
+  "bgColor": "white",
+  "lanRefresh": 2,
+  "iconSize": "30",
+  "cols": 4,
+  "rowHeight": 60,
+  "hideEvents": false,
+  "tempScale": "F",
+  "noColors": false,
+  "readOnly": null,
+  "rows": 5,
+  "hideIconText": false,
+  "background": "https://hubitat.ezeek.us/smartly-base/assets/images/bg_smartly.jpg",
+  "name": "Dashboard",
+  "fontSize": "14",
+  "tiles": [],
+  "customColors": [
+   {
+      "template": "dimmer",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "dimmer",
+      "bgColor": "rgb(255,255,255,.9)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "motion",
+      "bgColor": "rgba(255,255,255,0.9)",
+      "iconColor": "rgb(0,0,0)",
+      "state": "inactive"
+    },
+    {
+      "template": "motion",
+      "bgColor": "rgba(255,248,46,.9)",
+      "iconColor": "rgb(0,0,0)",
+      "state": "active"
+    },
+    {
+      "template": "switches",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "switches",
+      "bgColor": "rgb(255,255,255,.9)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "multi",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "multi",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "window",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "window",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "open"
+    },
+    {
+      "template": "door",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "door",
+      "bgColor": "rgb(251,104,14)",
+      "state": "open"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "low"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "medium-low"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "medium"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "medium-high"
+    },
+    {
+      "template": "fan",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "high"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "opening"
+    },
+    {
+      "template": "garage-control",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "closing"
+    },
+    {
+      "template": "garage",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "garage",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "garage",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "opening"
+    },
+    {
+      "template": "garage",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "closing"
+    },
+    {
+      "template": "shades",
+      "bgColor": "hsla(0,0%,50.2%,.5)",
+      "iconColor": "",
+      "state": "off"
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "",
+      "state": "on"
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "opening"
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "closing"
+    },
+    {
+      "template": "shades",
+      "bgColor": "rgb(67,166,52)",
+      "iconColor": "",
+      "state": "open"
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "",
+      "state": "opening"
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "door-control",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "lock",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "locked"
+    },
+    {
+      "template": "lock",
+      "bgColor": "rgba(251,104,14,.9)",
+      "state": "unlocked"
+    },
+    {
+      "template": "water",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "wet"
+    },
+    {
+      "template": "water",
+      "bgColor": "rgba(0,243,255,0.9)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "dry"
+    },
+    {
+      "template": "smoke",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "detected"
+    },
+    {
+      "template": "smoke",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "clear"
+    },
+   {
+      "template": "bulb",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "bulb",
+      "bgColor": "rgb(255,255,255,.9)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "presence",
+      "bgColor": "rgba(27,176,116,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "present"
+    },
+    {
+      "template": "presence",
+      "bgColor": "",
+      "iconColor": "",
+      "state": "not present"
+    },
+    {
+      "template": "temperature",
+      "bgColor": "rgba(86,58,171,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "default"
+    },
+    {
+      "template": "contact",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "closed"
+    },
+    {
+      "template": "contact",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "open"
+    },
+    {
+      "template": "bulb-color",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "bulb-color",
+      "bgColor": "rgb(255,255,255,.9)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "carbon-monoxide",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "detected"
+    },
+    {
+      "template": "carbon-monoxide",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "clear"
+    },
+    {
+      "template": "outlet",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "on"
+    },
+    {
+      "template": "outlet",
+      "bgColor": "rgba(255,255,255,0.9)",
+      "iconColor": "rgb(135,135,135)",
+      "state": "off"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "50"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "51"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "52"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "53"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "54"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "55"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "56"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "57"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "58"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "59"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "60"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "61"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "62"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "63"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "64"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "65"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "66"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "67"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "68"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "69"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "70"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "71"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "72"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "73"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "74"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "75"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "76"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "77"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "78"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "79"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "80"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "81"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "82"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "83"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "84"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "85"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "86"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "87"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "88"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "89"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "90"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "91"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "92"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "93"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "94"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "95"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "96"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "97"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "98"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "99"
+    },    {
+      "template": "battery",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)",
+      "state": "100"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(251,104,12,0.9)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "11"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "10"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "9"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "8"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "7"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "6"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "5"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "4"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "3"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "2"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "1"
+    },
+    {
+      "template": "music-player",
+      "bgColor": "rgba(20,20,20,.9)",
+      "iconColor": "",
+      "customIcon": "",
+      "state": "default"
+    }
+  ]
+}
