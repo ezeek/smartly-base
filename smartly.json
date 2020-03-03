@@ -337,6 +337,12 @@
       "state": "off"
     },
     {
+      "template": "humidity",
+      "bgColor": "rgba(58,186,161,.85)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "default"
+    },
+    {
       "template": "battery",
       "bgColor": "rgba(0,255,105,0.75)",
       "iconColor": "rgba(0,0,0,0.66)",

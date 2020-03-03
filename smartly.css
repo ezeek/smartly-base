@@ -696,21 +696,48 @@ h1,h2,h3,h4 {
     color: rgba(0,0,0,.66)
 }
 
-.tile.battery .tile-primary,.tile.temperature .tile-primary {
+.tile.battery .tile-primary,
+.tile.humidity .tile-primary,
+.tile.temperature .tile-primary {
     width: 100%;
     margin-top: -3px;
-    padding-left: 5px
+    padding-left: 5px;
+    line-height: 1em;
+}
+
+.tile.humidity .tile-contents .tile-edit {
+    bottom: 20px;
 }
 
 .tile.battery .tile-contents {
     display: block
 }
 
-.dashboard>div>.header {
+.dashboard>div>.header,
+.tile.text-tile {
     color: #fff
 }
 
-html[style*="background-color: darkgray;"] .dashboard>div>.header,html[style*="background-color: gold;"] .dashboard>div>.header,html[style*="background-color: ivory;"] .dashboard>div>.header,html[style*="background-color: lightcyan;"] .dashboard>div>.header,html[style*="background-color: lightgray;"] .dashboard>div>.header,html[style*="background-color: silver;"] .dashboard>div>.header,html[style*="background-color: skyblue;"] .dashboard>div>.header,html[style*="background-color: tan;"] .dashboard>div>.header,html[style*="background-color: white;"] .dashboard>div>.header,html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
+html[style*="background-color: darkgray;"] .tile.text-tile,
+html[style*="background-color: gold;"] .tile.text-tile,
+html[style*="background-color: ivory;"] .tile.text-tile,
+html[style*="background-color: lightcyan;"] .tile.text-tile,
+html[style*="background-color: lightgray;"] .tile.text-tile,
+html[style*="background-color: silver;"] .tile.text-tile,
+html[style*="background-color: skyblue;"] .tile.text-tile,
+html[style*="background-color: tan;"] .tile.text-tile,
+html[style*="background-color: white;"] .tile.text-tile,
+html[style*="background-color: whitesmoke;"] .tile.text-tile,
+html[style*="background-color: darkgray;"] .dashboard>div>.header,
+html[style*="background-color: gold;"] .dashboard>div>.header,
+html[style*="background-color: ivory;"] .dashboard>div>.header,
+html[style*="background-color: lightcyan;"] .dashboard>div>.header,
+html[style*="background-color: lightgray;"] .dashboard>div>.header,
+html[style*="background-color: silver;"] .dashboard>div>.header,
+html[style*="background-color: skyblue;"] .dashboard>div>.header,
+html[style*="background-color: tan;"] .dashboard>div>.header,
+html[style*="background-color: white;"] .dashboard>div>.header,
+html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
     color: #000
 }
 
