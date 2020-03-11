@@ -718,6 +718,11 @@ h1,h2,h3,h4 {
     color: #fff
 }
 
+#app>.dashboard {
+    -moz-transform-origin: 0 0;
+}
+
+
 html[style*="background-color: darkgray;"] .tile.text-tile,
 html[style*="background-color: gold;"] .tile.text-tile,
 html[style*="background-color: ivory;"] .tile.text-tile,
