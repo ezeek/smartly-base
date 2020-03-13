@@ -755,12 +755,13 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
 @media not all and (min-resolution:.001dpcm) { 
     @media {
         body, html, .dashboard { 
+          -webkit-text-size-adjust: auto;
         }
         .tile-title {
-           font-size: 75% !important;
+           font-size: 95% !important;
         }
         .tile .material-icons {
-           margin-top: -3px;
+           /* margin-top: -3px; */
         }
         .tile-primary { 
           overflow: visible !important;
@@ -774,7 +775,7 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
         }
 
         .tile.dashboard .tile-primary {
-          font-size: 1.1em !important;
+        /*  font-size: 1.1em !important; */
         }
 
         .inset-auto:after {
