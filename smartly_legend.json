@@ -1,0 +1,62 @@
+ "colorLegend": [
+    {
+      "template": "default",
+      "bgColor": "rgb(50,50,50,.5)",
+      "iconColor": "rgb(255,255,255)"
+    },
+    {
+      "template": "action",
+      "bgColor": "rgba(255,248,46,.9)",
+      "iconColor": "rgb(0,0,0)"
+    },
+    {
+      "template": "status-ok",
+      "bgColor": "rgba(0, 255, 105, 0.75)",
+      "iconColor": "rgba(0,0,0,.7)"
+    },
+    {
+      "template": "status-warning",
+      "bgColor": "rgba(251,104,14,.9)",
+      "iconColor": "rgb(255,255,255)"
+    },
+    {
+      "template": "status-alert",
+      "bgColor": "rgba(210,13,13,.9)",
+      "iconColor": "rgb(255,255,255)"
+    },
+    {
+      "template": "status-ok-dark",
+      "bgColor": "rgba(27,176,116,.9)",
+      "iconColor": "rgb(255,255,255)"
+    },
+    {
+      "template": "status-ok-alt",
+      "bgColor": "rgba(0,243,255,.9)",
+      "iconColor": "rgba(0,0,0,.7)"
+    },
+    {
+      "template": "status-ok-alt-dark",
+      "bgColor": "rgba(0,255,105,0.75)",
+      "iconColor": "rgba(0,0,0,0.66)"
+    },
+    {
+      "template": "primary-on",
+      "bgColor": "rgba(33,100,223,.9)",
+      "iconColor": "rgb(255,255,255)"
+    },
+    {
+      "template": "primary-off",
+      "bgColor": "rgba(255,255,255,0.9)",
+      "iconColor": "rgb(135,135,135)"
+    },
+    {
+      "template": "secondary-info",
+      "bgColor": "rgb(251,104,14)",
+      "iconColor": "rgba(0,0,0,0.66)"
+    },
+    {
+      "template": "tertiary-info",
+      "bgColor": "rgba(33,100,223,0.9)",
+      "iconColor": ""
+    }
+]

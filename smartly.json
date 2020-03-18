@@ -602,6 +602,36 @@
       "template": "battery",
       "bgColor": "rgba(251,104,12,0.9)",
       "iconColor": "rgb(255,255,255)",
+      "state": "16"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "15"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "14"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "13"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "12"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
       "state": "11"
     },
     {
@@ -663,6 +693,12 @@
       "bgColor": "rgba(255,0,0,0.65)",
       "iconColor": "rgb(255,255,255)",
       "state": "1"
+    },
+    {
+      "template": "battery",
+      "bgColor": "rgba(255,0,0,0.65)",
+      "iconColor": "rgb(255,255,255)",
+      "state": "0"
     },
     {
       "template": "music-player",
