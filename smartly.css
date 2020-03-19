@@ -781,5 +781,11 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
         .inset-auto:after {
             font-size: 1.3em !important;
         }
+
+        /* Fix bouncing */
+        .tile.dashboard {
+          margin-top: calc(12%);
+          margin-bottom: calc(12%);
+        }
     }
 }
