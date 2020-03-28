@@ -244,15 +244,13 @@
     height: 100%
 }
 
-.tile.thermostat .absolute.bottom-0 {
-    padding-bottom: 5px;
-    top: 10px;
-    left: 17px;
+.tile.thermostat>.absolute.bottom-0 {
+    top: 2em;
+    left: 1em;
     text-align: left;
     width: auto;
-    bottom: auto;
     font-weight: 500;
-    word-spacing: 100vw
+    line-height: 1em;
 }
 
 .tile.thermostat .w-full.my-1 {
