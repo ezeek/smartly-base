@@ -799,3 +799,11 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
     right: 1.25em;
     width: unset;
 }
+
+.tile.bulb-color .tile-primary>div {
+    margin-top: -3px;
+}
+
+.tile.bulb .tile-primary>div {
+    margin-top: 0px;
+}
