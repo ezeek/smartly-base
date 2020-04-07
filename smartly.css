@@ -247,10 +247,11 @@
 .tile.thermostat>.absolute.bottom-0 {
     top: 2em;
     left: 1em;
-    text-align: left;
-    width: auto;
+    text-align: center;
+    width: calc(100% - 2em);
     font-weight: 500;
     line-height: 1em;
+    height: 1em;
 }
 
 .tile.thermostat .w-full.my-1 {
