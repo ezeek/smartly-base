@@ -189,7 +189,7 @@
 }
 
 .tile.attribute,.tile.clock,.tile.dashboard,.tile.date-clock,.tile.mode,.tile.music-player {
-    border: 1px solid #fff
+    border: 2px solid #fff
 }
 
 .tile.date-clock .tile-primary {
@@ -293,7 +293,7 @@
 }
 
 .tile.link .tile-primary div {
-    text-shadow: 2px 2px rgba(0,0,0,.6);
+/*    text-shadow: 2px 2px rgba(0,0,0,.6); */
     margin-top: 0
 }
 
@@ -697,7 +697,11 @@ h1,h2,h3,h4 {
 
 .tile.battery .tile-primary,
 .tile.humidity .tile-primary,
-.tile.temperature .tile-primary {
+.tile.temperature .tile-primary,
+.tile.illuminance .tile-primary,
+.tile.energy .tile-primary,
+.tile.power .tile-primary,
+.tile.attribute  .tile-primary{
     width: 100%;
     margin-top: -3px;
     padding-left: 5px;
