@@ -20,7 +20,7 @@
 }
 
 @font-face {
-    font-family:'Material Design Icons';src:url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff) format('woff'),url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff) format('truetype');font-weight:400;font-style:normal;unicode-range:U+E900-EFFF
+    font-family:'Material Design Icons';src:url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.063) format('woff'),url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.063) format('truetype');font-weight:400;font-style:normal;unicode-range:U+E900-EFFF,U+0000-008E
 }
 
 .he-bulb_off:before,.he-bulb_on:before,.he-dimmer_low:before,.he-dimmer_medium:before,.he-door_closed:before,.he-door_open:before,.he-fire1:before,.he-fire_alarm_clear:before,.he-garage_closed:before,.he-garage_closing:before,.he-garage_open:before,.he-garage_opening:before,.he-hour-glass:before,.he-motion-sensor:before,.he-motion_detector_3:before,.he-motion_detector_3_filled:before,.he-not_present:before,.he-outlet_3:before,.he-outlet_off:before,.he-running:before,.he-shades_closed:before,.he-shades_partially_open:before,.he-switch_2:before,.he-switch_2_flipped:before,.he-water_dry:before,.he-water_wet:before,.he-window_1:before,.he-window_2:before,.tile.dashboard .tile-primary::before,.tile.shades .tile-primary i.material-icons {
@@ -811,4 +811,102 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
 
 .tile.bulb .tile-primary>div {
     margin-top: 0px;
+}
+
+/* https://github.com/ezeek/smartly-base/issues/10 */
+
+.tile.thermostat {
+    display: grid;
+    grid-template-rows: 1.8em auto;
+}
+
+
+.tile.thermostat>.absolute.bottom-0 {
+    grid-row: 1;
+    position: relative;
+    padding-top: .5em;
+    top: unset;
+    height: 2em;
+}
+
+.tile.thermostat>.flex.items-stretch {
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 3.4em auto;
+    grid-template-columns: calc(100%);
+    height: auto;
+
+}
+
+.tile.thermostat>.flex.items-stretch .cooling.w-full {
+    grid-row: 1;
+}
+
+.tile.thermostat>.flex.items-stretch>.flex {
+   display: flex;
+     -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-row: 2;
+    flex-flow: wrap-reverse;
+}
+
+.tile.thermostat>.flex>.flex>.heating.pt-1,
+.tile.thermostat>.flex>.flex>.cooling.w-full {
+    min-width: 10em;
+    min-height: 10em;
+    margin: 0;
+    border-radius: 1em;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    width:  50%;
+    margin:0;
+    padding: 0;
+}
+
+.tile.thermostat>.flex>.flex>.heating.pt-1>.inline-block,
+.tile.thermostat>.flex>.flex>.cooling.w-full>.inline-block {
+    display: inline-flex;
+}
+
+.tile.thermostat .w-full.my-1 {
+    width:100%;
+}
+
+.tile.thermostat .tile-edit {
+    top: .75em;
+}
+
+.tile.thermostat .w-full.my-1>div {
+    width: 3px !important;
+}
+
+.tile.thermostat .w-full.my-1>div.inline-block {
+    width: unset !important;
+    padding: 2px 2px 5px 2px;
+    min-width: 32%;
+}
+
+.tile.thermostat .cooling .inline-block br, .tile.thermostat .heating .inline-block br {
+    content: " ";
+    padding: 2px;
+}
+
+.tile.thermostat .w-full.my-1>div.inline-block:nth-child(1) {
+    border-radius: .5em 0 0 .5em;
+}
+
+.tile.thermostat .w-full.my-1>div.inline-block:nth-child(3) {
+    border-radius: 0 .5em .5em 0;
+}
+
+.tile.thermostat .w-full.my-1 {
+    position: relative; 
+    bottom: unset;
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+.tile.thermostat .p-1 {
+    padding: 0;
 }
