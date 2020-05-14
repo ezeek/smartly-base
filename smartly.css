@@ -910,3 +910,9 @@ html[style*="background-color: whitesmoke;"] .dashboard>div>.header {
 .tile.thermostat .p-1 {
     padding: 0;
 }
+
+/* https://github.com/ezeek/smartly-base/issues/11 */
+
+.tile.image {
+    position: relative;
+}

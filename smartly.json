@@ -34,7 +34,7 @@
     },
     {
       "template": "dimmer",
-      "bgColor": "rgb(255,255,255,.9)",
+      "bgColor": "rgba(255,255,255,.9)",
       "iconColor": "rgb(135,135,135)",
       "state": "off"
     },
@@ -58,7 +58,7 @@
     },
     {
       "template": "switches",
-      "bgColor": "rgb(255,255,255,.9)",
+      "bgColor": "rgba(255,255,255,.9)",
       "iconColor": "rgb(135,135,135)",
       "state": "off"
     },
@@ -266,7 +266,7 @@
     },
     {
       "template": "bulb",
-      "bgColor": "rgb(255,255,255,.9)",
+      "bgColor": "rgba(255,255,255,.9)",
       "iconColor": "rgb(135,135,135)",
       "state": "off"
     },
@@ -308,8 +308,8 @@
     },
     {
       "template": "bulb-color",
-      "bgColor": "rgb(255,255,255,.9)",
-      "iconColor": "rgb(135,135,135)",
+      "bgColor": "rgba(255,255,255,.9)",
+      "iconColor": "rgba(135,135,135)",
       "state": "off"
     },
     {
