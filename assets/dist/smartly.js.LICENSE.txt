@@ -1,0 +1,22 @@
+/*!
+ * jQuery UI Touch Punch 0.2.3
+ *
+ * Copyright 2011–2014, Dave Furfero
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * Depends:
+ *  jquery.ui.widget.js
+ *  jquery.ui.mouse.js
+ */
+
+// gridstack-dd-jqueryui.ts 2.0.0-rc2 @preserve
+
+// gridstack-dd.ts 2.0.0-rc2 @preserve
+
+// gridstack-engine.ts 2.0.0-rc2 @preserve
+
+// gridstack-poly.js 2.0.0-rc2 @preserve
+
+// gridstack.ts 2.0.0-rc2 @preserve
+
+// utils.ts 2.0.0-rc2 @preserve
