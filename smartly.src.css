@@ -232,9 +232,11 @@
     display: inline-block
 }
 
+/*
 .tile.dashboard .tile-primary::before {
     content: "\F56E"
 }
+ */
 
 .tile.dashboard .tile-contents {
     margin-top: 0;
