@@ -20,7 +20,7 @@
 }
 
 @font-face {
-    font-family:'Material Design Icons';src:url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.08) format('woff'),url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.08) format('truetype');font-weight:400;font-style:normal;unicode-range:U+E900-EFFF,U+0000-008E
+    font-family:'Material Design Icons';src:url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.065) format('woff'),url(https://hubitat.ezeek.us/smartly-base/assets/fonts/mtd-public.woff?v=1.065) format('truetype');font-weight:400;font-style:normal;unicode-range:U+E900-EFFF,U+0000-008E
 }
 
 .he-bulb_off:before,.he-bulb_on:before,.he-dimmer_low:before,.he-dimmer_medium:before,.he-door_closed:before,.he-door_open:before,.he-fire1:before,.he-fire_alarm_clear:before,.he-garage_closed:before,.he-garage_closing:before,.he-garage_open:before,.he-garage_opening:before,.he-hour-glass:before,.he-motion-sensor:before,.he-motion_detector_3:before,.he-motion_detector_3_filled:before,.he-not_present:before,.he-outlet_3:before,.he-outlet_off:before,.he-running:before,.he-shades_closed:before,.he-shades_partially_open:before,.he-switch_2:before,.he-switch_2_flipped:before,.he-water_dry:before,.he-water_wet:before,.he-window_1:before,.he-window_2:before,.tile.dashboard .tile-primary::before,.tile.shades .tile-primary i.material-icons {
